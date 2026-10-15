@@ -54,15 +54,23 @@
 #define BEEPER_PIN PC15
 
 // M1/PB6 is the only drive motor. Remaining motor-capable pads are servos.
-#define MOTOR1_PIN PB6
-#define SERVO1_PIN PC8
-#define SERVO2_PIN PB7
-#define SERVO3_PIN PB0
-#define SERVO4_PIN PB1
-#define SERVO5_PIN PC9
-#define SERVO6_PIN PB10
-#define SERVO7_PIN PA15
-#define SERVO8_PIN PB15
+#define MOTOR1_PIN PB6       // drive throttle
+#define SERVO1_PIN PB7       // M2: default steering
+#define SERVO1_LABEL "M2"
+#define SERVO2_PIN PB0       // M3
+#define SERVO2_LABEL "M3"
+#define SERVO3_PIN PB1       // M4
+#define SERVO3_LABEL "M4"
+#define SERVO4_PIN PC8       // M5
+#define SERVO4_LABEL "M5"
+#define SERVO5_PIN PC9       // M6
+#define SERVO5_LABEL "M6"
+#define SERVO6_PIN PB10      // M7
+#define SERVO6_LABEL "M7"
+#define SERVO7_PIN PA15      // M8
+#define SERVO7_LABEL "M8"
+#define SERVO8_PIN PB15      // S9
+#define SERVO8_LABEL "S9"
 
 #define RX_PPM_PIN PA3
 #define LED_STRIP_PIN PA8
